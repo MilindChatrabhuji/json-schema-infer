@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "json-schema-infer"
+version = "0.1.0"
+description = "Zero-dependency Python tool to infer, generate, and validate strict Pydantic v2 models, JSON Schemas, and TypeScript interfaces from raw JSON."
+readme = "README.md"
+authors = [{ name = "Milind Chatrabhuji", email = "milind.chatrabhuji@gmail.com" }]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/MilindChatrabhuji/json-schema-infer"
+Repository = "https://github.com/MilindChatrabhuji/json-schema-infer"
